@@ -31,7 +31,7 @@ console.log("The Maximum Number is :", numbers); */
 // akti array er theke max number nirnoy
 
 /* function menHeight(numbers) {
-  let max = numbers[0];
+  let max = totalHeight[0];
   for (let i = 0; i < numbers.length; i++) {
     // console.log(numbers[i]);
     if (numbers[i] > max) {
@@ -44,4 +44,45 @@ const totalHeight = [65, 76, 98, 90, 50];
 const height = menHeight(totalHeight);
 console.log(height); */
 
+// akti array er moddhe lowest number
 
+/* const arr = [12, 45, 2, 67, 56, 98];
+
+function toLowestNumber(numbers) {
+  let min = arr[0];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] < min) {
+      min = numbers[i];
+    }
+  }
+  return min;
+}
+const results = toLowestNumber(arr);
+console.log(results); */
+
+// array er modddhe object decliar  kora thakle function a kivabe call korbo?
+
+/* const totalMobailes = [
+  { name: "samsung", price: 200000, camera: "12 mp", color: "black" },
+  { name: "apple", price: 200000, camera: "12 mp", color: "black" },
+  { name: "pakiga", price: 250000, camera: "12 mp", color: "black" },
+  { name: "miran", price: 200000, camera: "12 mp", color: "black" },
+  { name: "mydul", price: 200000, camera: "12 mp", color: "black" },
+  { name: "saseg", price: 200000, camera: "12 mp", color: "black" },
+  { name: "realme", price: 200000, camera: "12 mp", color: "black" },
+];
+
+function totalPhone(numbers) {
+  let max = totalMobailes[0];
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i].price > max.price) {
+      max = numbers[i];
+    }
+  }
+  return max;
+}
+const results = totalPhone(totalMobailes);
+console.log(results); */
+
+
+// 
