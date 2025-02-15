@@ -81,4 +81,15 @@ console.log(results); */
    { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
  ];
 
- 
+ function totalEmployees(numbers){
+     let sum =0;
+     for(let i=0; i<numbers.length; i++){
+          // console.log(numbers[i])
+          
+
+     }
+
+
+ }
+ const results = totalEmployees(employees);
+ console.log(results);
