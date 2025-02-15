@@ -84,5 +84,134 @@ function totalPhone(numbers) {
 const results = totalPhone(totalMobailes);
 console.log(results); */
 
+// sopping total product
 
-// 
+/* const prices = [300, 100, 400, 200];
+
+const products = [
+  { name: "sempoo", price: 300 },
+  { name: "chironi", price: 100 },
+  { name: "shirt", price: 600 },
+  { name: "pant", price: 800 },
+];
+
+function totalSopping(numbers) {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    // console.log(numbers[i]);
+    sum = sum + numbers[i].price;
+  }
+  return sum;
+}
+const results = totalSopping(products);
+console.log(results); */
+
+// sopping card
+
+/* const products = [
+  { name: "sempoo", price: 300, quantity: 2 },
+  { name: "chironi", price: 100, quantity: 3 },
+  { name: "shirt", price: 600, quantity: 4 },
+  { name: "pant", price: 800, quantity: 5 },
+];
+
+function totalProducts(numbers) {
+  let sum =0;
+  for (let i = 0; i < numbers.length; i++) {
+    // console.log(numbers[i]);
+    const totalProductsCost = numbers[i].price * numbers[i].quantity;
+    sum = sum + totalProductsCost;
+  }
+  return sum;
+}
+const results = totalProducts(products);
+console.log(results); */
+
+// discount card calculator
+
+/* function discountCal(numbers){
+  if(numbers < 50){
+    const discaunt = numbers * 20;
+    return discaunt;
+  }
+  else if(numbers < 100){
+    const discaunt = numbers * 50;
+    return discaunt;
+  }
+  else {
+    const discaunt = numbers * 10;
+    return discaunt;
+  }
+
+}
+const results = discountCal(90);
+console.log(results); */
+
+// calculator simple calculation
+
+/* function add(num1, num2) {
+  return num1 + num2;
+}
+function sub(num1, num2) {
+  return num1 - num2;
+}
+function mul(num1, num2) {
+  return num1 * num2;
+}
+function div(num1, num2) {
+  return num1 / num2;
+}
+
+function totalCalculation(a, b, oparetion) {
+  if (oparetion === add) {
+    return add(a, b);
+  } else if (oparetion === sub) {
+    return sub(a, b);
+  } else if (oparetion === mul) {
+    return mul(a, b);
+  } else if (oparetion === div) {
+    return div(a, b);
+  } else {
+    return "only 'add','sub','mul','div' operation is allows ";
+  }
+}
+const results = totalCalculation(6, 3, mul);
+console.log(results); */
+
+// use jodi number bad a onno kicu jei seikhane user ke akta sms show kortaite hbe..
+
+/* function totalNumbers(num1 , num2){
+  if(typeof num1 !== 'number' || typeof num2 !== 'number'){
+    console.log("Please create a number");
+  }
+  return num1 * num2;
+
+}
+const number = totalNumbers(4,'seven');
+console.log(number); */
+
+/* function fullName (first , second){
+  if(typeof first !=='string'){
+    return 'First name should be a string';
+  }
+  else if(typeof second !== 'string'){
+    return 'Second name should be a string';
+  }
+  const full = first+ ' '+ second;
+  return full;
+}
+const results = fullName('Mydul', 'Islam');
+console.log(results); */
+
+// jdi number bad a onno kicu dei tahla ay sms show korbe and tik vabe number dila output show korbe
+
+/* function multiply(num1, num2) {
+  if (typeof num1 !== "number") {
+    return "Please Provide a number";
+  }
+  return num1 * num2;
+}
+const results = multiply(2 ,4);
+console.log(results); */
+
+
